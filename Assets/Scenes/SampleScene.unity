@@ -281,7 +281,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 633371364}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1, y: -5.83, z: -2.6824076}
+  m_LocalPosition: {x: 0.77, y: -6.36, z: -2.6824076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -299,7 +299,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c58e7479c942f468541e1cd2553132, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  touchRadius: 0.5
+  speed: 5
+  touchRadius: 1
+  touchExplosionRadius: 0.15
   explosionForce: 5
   damage: 10
 --- !u!1001 &6898600831913383557

@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faea7ad5643cc4e46a7945a6e270209a, type: 3}
   m_Name: BubbleCharacteristics
   m_EditorClassIdentifier: 
+  bubblePrefab: {fileID: 0}
   health: 100
   healthyColor: {r: 0.5, g: 0.75, b: 1, a: 1}
   deadColor: {r: 1, g: 0.5019608, b: 0.5, a: 1}
+  destroyParticles: {fileID: 6857589532341591564, guid: 3e95adb48ab646a48bec35938504a56c, type: 3}

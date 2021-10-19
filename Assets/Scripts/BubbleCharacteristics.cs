@@ -18,4 +18,8 @@ public class BubbleCharacteristics : ScriptableObject
     [SerializeField]
     private Color deadColor = default;
     public Color DeadColor => deadColor;
+
+    [SerializeField]
+    private GameObject destroyParticles = default;
+    public GameObject DestroyParticles => destroyParticles;
 }
